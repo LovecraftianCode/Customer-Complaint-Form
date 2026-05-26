@@ -1,4 +1,4 @@
-# 📝 Customer Complaint Form - Formulario de Quejas
+# Customer Complaint Form - Formulario de Quejas
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
@@ -8,14 +8,14 @@
 > **Formulario de quejas para servicio al cliente** con validación en tiempo real, feedback visual y manejo de grupos de checkboxes y radio buttons.  
 > *¡Cada campo validado al instante con colores verde/rojo!*
 
-## 🚀 Demo en vivo
+## Demo en vivo
 
 <!-- ⚠️ Reemplaza esta imagen con una captura de tu formulario funcionando -->
 <img width="392" height="685" alt="form" src="https://github.com/user-attachments/assets/908d9345-83bb-4f6e-b39f-508ce43fb1f6" />
 
-**¡Pruébalo ahora!** → 
+<a href="https://lovecraftiancode.github.io/Customer-Complaint-Form/" target="_blank">**¡Haz click aqui para probarlo!** </a>
 
-## 📋 Tabla de Contenidos
+## Tabla de Contenidos
 - [Sobre este proyecto](#sobre-este-proyecto)
 - [Características del formulario](#características-del-formulario)
 - [Reglas de validación](#reglas-de-validación)

@@ -1,0 +1,183 @@
+* {
+    box-sizing: border-box;
+}
+
+input, textarea, select, button {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #dddddd 0%, #000000 100%);
+    min-height: 100vh;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+    font-size: 2.5rem;
+}
+
+#form {
+    max-width: 800px;
+    margin: auto;
+    background: #dddddd;
+    border-radius: 20px;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+    padding: 30px;
+}
+
+fieldset {
+    border-radius: 12px;
+    transition: all 0.3s ease;
+    margin-bottom: 20px;
+    border: 2px solid rgb(118, 118, 118);
+    padding: 20px;
+}
+
+fieldset div {
+    margin-bottom: 12px;
+}
+
+fieldset div:last-child {
+    margin-bottom: 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #333333;
+    font-size: 14px;
+}
+
+fieldset:focus-within {
+    border-color: #667eea;
+}
+
+/* INPUTS DE TEXTO */
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea {
+    width: 100%;
+    padding: 14px 12px;
+    font-size: 16px;
+    border: 2px solid #e0e0e0;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    box-sizing: border-box;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+textarea:focus {
+    border-color: #667eea;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(102,126,234,0.1);
+}
+
+/* CHECKBOXES Y RADIOS */
+input[type="checkbox"],
+input[type="radio"] {
+    width: auto;           
+    margin-right: 8px;
+    margin-left: 0;
+    transform: scale(1.1); 
+    vertical-align: middle;
+}
+
+#complaints-group div,
+#solutions-group div {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 10px;
+}
+
+#complaints-group label,
+#solutions-group label {
+    display: inline;
+    margin-bottom: 0;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+/* CONTENEDORES DE PERSONAL INFO Y PRODUCT INFO */
+#personal-info div,
+#product-info div {
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+/* BOTONES */
+#submit-btn, #clear-btn {
+    padding: 12px 30px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease;
+}
+
+#submit-btn {
+    background: #1e3c72;
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+    color: white;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+#submit-btn:hover {
+    background: #2a5298;
+    background: linear-gradient(135deg, #2a5298 0%, #1e3c72 100%);
+    transform: scale(1.02);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.25);
+}
+
+
+#clear-btn {
+    background: #4a4a4a;
+    background: linear-gradient(135deg, #5a5a5a 0%, #3a3a3a 100%);
+    color: #e0e0e0;
+    border: 1px solid #6a6a6a;
+}
+
+#clear-btn:hover {
+    background: #3a3a3a;
+    background: linear-gradient(135deg, #4a4a4a 0%, #2a2a2a 100%);
+    color: white;
+    transform: scale(1.02);
+}
+
+/* TEXTAREAS */
+textarea {
+    resize: vertical;
+    min-height: 100px;
+    font-family: inherit;
+}
+
+/* RESPONSIVE */
+@media (max-width: 600px) {
+    #form {
+        padding: 20px;
+    }
+    
+    fieldset {
+        padding: 15px;
+    }
+    
+    #btn-container {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 10px;
+    }
+    
+    #message-box {
+        text-align: center;
+    }
+}

@@ -241,7 +241,7 @@ Requisitos:
 
 ```bash
 # 1. Clonar el repositorio
-git clone https://github.com/tusuario/customer-complaint-form.git
+git clone https://github.com/LovecraftianCode/Customer-Complaint-Form.git
 cd customer-complaint-form
 
 # 2. Opción A: Abrir directamente
